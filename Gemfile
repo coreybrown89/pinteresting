@@ -10,19 +10,17 @@ gem 'turbolinks'
 gem 'jbuilder', 			'~> 2.0'
 gem "bootstrap-sass"	
 
-group :doc do
-	gem 'sdoc', require: false
-end	
+
 
 group :development, :test do
-	gem 'byebug'
 	gem 'sqlite3'
 end
 
 group :production, :test do
 	gem 'pg'
 	gem 'rails_12factor'
-	gem 'web-console', 		'~> 2.0'
-	gem 'spring'
 end
 
+group :doc do
+	gem 'sdoc', require: false
+end	
