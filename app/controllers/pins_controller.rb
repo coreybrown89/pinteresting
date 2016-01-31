@@ -18,7 +18,7 @@ class PinsController < ApplicationController
   def create
     @pin = Pin.new(pin_params)
       if @pin.save
-        format.html redirect_to @pin, notice: 'Way to go pinhead!'
+        format.html redirect_to @pin, notice: 'Way to go pinhead'
       else
         format.html { render :new }
 
