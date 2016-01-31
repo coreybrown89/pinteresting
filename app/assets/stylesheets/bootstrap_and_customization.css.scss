@@ -16,4 +16,6 @@ $jumbotron-bg:                     white;
      font-weight: bold;
 }
 
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
