@@ -1,0 +1,2 @@
+class TimController < ApplicationController
+end
